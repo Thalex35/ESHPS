@@ -1,1 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../image/logo.png">
+    <link rel="stylesheet" href="../css/index.css">
+    <title>ESHPS</title>
+</head>
+<body>
+ <div class="main-header">
+    <nav class="head">
+   <img src="../image/logo.png">    
+   <div class="nav-links">
+    <a href="#">Accueil</a>
+    <a href="Services.html">Services</a>
+    <a href="contact.html">Contact</a>
+    <a href="about.html">Apropos</a>
+   </div> 
+    </nav>
+ </div>  
+ <div class="vid-nav">
+  <video autoplay muted loop>
+    <source src="../video/ecole.mp4" type="video/mp4">  
+  </video>
+<p>ESHPS</p>
+<p>École Supérieure des Hautes Études en Sciences et Technologies</p>
+<button>En savoir plus</button>
+ </div> 
+ <h1>Notre Histoire</h1>
+<div class="text1">
+    <p>Fondée en 2005, l'École Supérieure des Hautes Études en Sciences et Technologies (ESHPS) est une institution d'enseignement supérieur dédiée à la formation de professionnels compétents dans les domaines des sciences et technologies. Depuis sa création, l'ESHPS s'est engagée à offrir une éducation de qualité, axée sur l'innovation et la recherche, afin de préparer les étudiants à relever les défis du monde moderne.</p>
+</div>
+ <h1>Notre Parcours</h1>
+<div class="board">
+    <div class="card">
+        <h2>2005</h2>
+        <p>Création de l'ESHPS avec une vision de fournir une éducation de qualité dans les domaines des sciences et technologies.</p>
+    </div>
+    <div class="card">
+        <h2>2010</h2>
+        <p>Lancement de nouveaux programmes académiques pour répondre aux besoins changeants du marché du travail.</p>
+    </div>
+    <div class="card">
+        <h2>2015</h2>
+        <p>Partenariats avec des entreprises et des institutions de recherche pour offrir des opportunités de stage et de collaboration.</p>
+    </div>
+    <div class="card">
+        <h2>2020</h2>
+        <p>Adoption de technologies innovantes pour améliorer l'expérience d'apprentissage des étudiants.</p>
+    </div>
+</div>
+<div class="text2">
+    <img src="../image/fondateur.avif" alt="Histoire de l'ESHPS">
+    <h2>Notre Fondateur</h2>
+<p>Notre fondateur est animé par une vision claire : rendre l’éducation accessible, moderne et utile pour tous. Passionné par le savoir, la technologie et le développement humain, il a créé cette école avec une conviction forte : l’apprentissage doit préparer à la vraie vie, pas seulement aux examens.
 
+À travers cette institution, il met son expérience, sa rigueur et son engagement au service des apprenants, en promouvant des valeurs essentielles telles que le travail, la discipline, l’innovation et l’excellence. Son objectif est de former une nouvelle génération de jeunes compétents, responsables et capables de s’adapter aux défis du monde actuel.</p>
+</div>
+<div class="formulaire"></div>
+<section class="contact">
+    <h1>Contactez-nous</h1>
+    <div class="contact-info">
+        <p><strong>Adresse:</strong> 123 Rue de l'Éducation, Ville, Pays</p>
+        <p><strong>Téléphone:</strong> +123 456 7890</p>
+        <p><strong>Email:</strong> contact@eshps.edu</p>
+    </div>
+    <form action="submit_form.php" method="post">
+        <label for="name">Nom:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="exemple@gmail.com" required>
+
+        <label for="phone">Téléphone:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Numéro de téléphone" required>
+        
+        <label for="subject">Sujet:</label>
+        <select id="subject" name="subject" required>
+            <option value="">Sélectionnez un sujet</option>
+            <option value="admission">Admission</option>
+            <option value="programmes">Programmes académiques</option>
+            <option value="partenariats">Partenariats</option>
+            <option value="autre">Autre</option>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="Hello....." required></textarea>
+
+        <button type="submit">Envoyer</button>
+    </form>
+</section>
+</div>
+<div class="footer">
+    <img src="../image/logo.png" alt="Logo ESHPS">
+
+
+</body>
+</html>
